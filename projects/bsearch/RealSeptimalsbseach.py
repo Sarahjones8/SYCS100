@@ -1,4 +1,3 @@
-
 # Alston Clark
 
 def bsearch(list,search):
@@ -32,6 +31,25 @@ def bsearch(list,search):
 
     else:
       return mid
+
+#Sarah Jones
+
+def bsearch( lista, element):
+    start = 0
+    end = len(lista) - 1
+    while (end >= start):
+          mid = (start + end) / 2
+          if (lista[mid] < element):
+            start = mid + 1
+          elif lista[mid] > element:
+            end = mid - 1
+          else:
+            return mid
+            
+        
+    return -1
+
+bsearch([2, 6, 7, 9, 14, 17, 18, 20], 2)
 
 
     
