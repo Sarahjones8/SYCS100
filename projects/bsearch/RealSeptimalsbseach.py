@@ -159,6 +159,5 @@ def bsearch( lista, element):
           else:
             return mid
             
-        
     return -1
 
